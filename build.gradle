@@ -42,7 +42,7 @@ test {
 
 project.version = scmVersion.version
 
-String imageName = "joseph/springboot-api-example:$version"
+String imageName = "nguleduy/springboot-api-example:$version"
 
 docker {
     name imageName
